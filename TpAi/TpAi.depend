@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1584205420 source:d:\tpai\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1561053078 source:d:\tp1ai\code_graphe\maingraphemat.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"graphemat.h"
+	"liregraphe.h"
+
+1561053066 d:\tp1ai\code_graphe\graphemat.h
+	<limits.h>
+
+1561053066 d:\tp1ai\code_graphe\liregraphe.h
+
+1652816346 source:d:\tpai\maingraphemat.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"graphemat.h"
+	"liregraphe.h"
+
+1652813723 d:\tpai\graphemat.h
+	<limits.h>
+
+1561053066 d:\tpai\liregraphe.h
+
+1652814826 source:d:\tpai\graphemat.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"graphemat.h"
+	"liste.h"
+	"math.h"
+
+1647423123 source:d:\tpai\liregraphe.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"graphemat.h"
+
+1652440981 source:d:\tpai\liste.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"liste.h"
+
+1652440993 d:\tpai\liste.h
+	<stdbool.h>
+
+1617281200 source:d:\tpai\liste.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"liste.h"
+
+1649300630 source:d:\tpai\problem.c
+	"Problem.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1649300642 d:\tpai\problem.h
+	"graphemat.h"
+	"liste.h"
+	<stdio.h>
+

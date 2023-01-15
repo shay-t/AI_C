@@ -1,0 +1,52 @@
+
+#include <limits.h>
+
+typedef int  booleen;
+#define faux 0
+#define vrai 1
+typedef char NomSom[20];  // nom d'un sommet
+#define INFINI INT_MAX
+
+typedef int* Matrice;
+
+typedef struct {
+  int      n;       // nombre de sommets
+  int      nMax;    // nombre max de sommets
+  booleen  value;   // graphe valué ou non
+  NomSom*  nomS;    // noms des sommets
+  Matrice  element; // existence d'un arc (i, j)
+  Matrice  valeur;  // cout de l'arc (i, j)
+  booleen* marque;  // sommet marqué (visité) ou non
+} GrapheMat;
+
+GrapheMat* creerGrapheMat     (int nMax, int value);
+void       detruireGraphe     (GrapheMat* graphe);
+void       ajouterUnSommet    (GrapheMat* graphe, NomSom nom);
+void       ajouterUnArc       (GrapheMat* graphe, NomSom somD, NomSom somA, int cout);
+void       ecrireGraphe       (GrapheMat* graphe);
+
+void       parcoursProfond    (GrapheMat* graphe);
+
+void       parcoursLargeur    (GrapheMat* graphe);
+
+void       floyd              (GrapheMat* graphe);
+
+void       explorationCU(GrapheMat* graphe, NomSom nom);
+
+void profondeurLimite(GrapheMat* graphe,int limit,NomSom but);
+
+void profondeurIterativeLimited(GrapheMat* graphe,int limite,NomSom but);
+
+void parcoursEnProfondeurIterativeGraphe(GrapheMat* graphe);
+
+void parcoursUniform(GrapheMat* graphe, NomSom but);
+
+void Aheuristique(GrapheMat* graphe,NomSom but);
+
+void IterativedeepingA(GrapheMat* graphe,NomSom* but);
+
+void escalade_opt(GrapheMat* graphe);
+
+void perceptron();
+
+void perceptronMulticouche();
